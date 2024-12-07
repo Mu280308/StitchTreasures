@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link rel="website icon" type="image/jpeg" href="stitch-hearts-cartoon-pfp.jpg">
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5">
+  <meta name="description" content="My online shop">
+  <meta name="author" content="Musa Uruchov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Stitch Products</title>
+  <style>
+    body {
+      background-color: #ADD8E6; /* Светло син фон */
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+    #shop {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #f9f9f9;
+    }
+    #shop h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 200px;
+      text-align: center;
+      background-color: white;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .product p {
+      font-size: 1em;
+      color: #333;
+    }
+    .product button {
+      padding: 10px 15px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: darkblue;
+    }
+    footer {
+      background-color: blue;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer p {
+      margin: 10px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li> <!-- Връщане към главната страница -->
+      <li><a href="#">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="shop">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="stitch-toy.jpg" alt="Stitch Toy">
+        <h3>Stitch Toy</h3>
+        <p>Price: $20</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="stitch-shirt.jpg" alt="Stitch T-Shirt">
+        <h3>Stitch T-Shirt</h3>
+        <p>Price: $25</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="stitch-cup.jpg" alt="Stitch Cup">
+        <h3>Stitch Cup</h3>
+        <p>Price: $15</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Добавяме футър с информация -->
+<footer>
+  <p>&copy; 2024 My Online Shop. All rights reserved.</p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+  <p>Contact us: <a href="mailto:info@example.com">info@example.com</a></p>
+</footer>
+
+</body>
+</html>
